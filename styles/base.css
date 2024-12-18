@@ -1,0 +1,21 @@
+Base styles and resets
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+  
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  color: #333;
+  background: linear-gradient(135deg, #e5e5f1 0%, #aabfc2 100%);
+  min-height: 100vh;
+}
+

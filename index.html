@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Me - AMR QAMHIEH</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css" />
+
+
+</head>
+<body>
+  <header>
+    <div class="nav-container">
+      <div class="logo">AMR QAMHIEH<span class="dot">.</span></div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#lang">Languages</a></li>
+          <li><a href="#contact">Contacts</a></li>
+        </ul>
+      </nav>
+      <div class="nav-action">
+        <a href="C:\Users\amr_q\Downloads" class="resume-btn" onclick="downloadPortfolio()">Download CV</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="profile-container">
+      <img src="https://media.licdn.com/dms/image/v2/D4E03AQG8cnKZ_XFupQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1726342547360?e=1740009600&v=beta&t=lDavi1ZkuKWvIn2dfUaWXQBqger14Aor0aeYr661Grk" alt="Profile Image" class="profile-image" />
+      <div class="description">
+        <p>
+          A dedicated and enthusiastic Management Information Systems (MIS) student at An-Najah National University (2021–Present) from Palestine.<br><br>
+          With comprehensive knowledge in IT and business-related fields, I seek to leverage my skills and academic experience through training opportunities, contributing to organizational success.
+        </p>
+      </div>
+    </section>
+
+    <section id="education" class="content-section">
+      <h2>Education</h2>
+      <p id="edu"><strong>An-Najah National University</strong><br>Bachelor in Management Information Systems (MIS), 2021–Present</p>
+    </section>
+
+    <section id="skills" class="content-section">
+      <h2>Skills</h2>
+      <div class="two-column">
+        <div class="column">
+          <h3>Technical Skills</h3>
+          <ul>
+            <li>Data Analysis</li>
+            <li>Data Mining</li>
+            <li>UX/UI Design</li>
+            <li>HTML, CSS, PHP</li>
+          </ul>
+        </div>
+        <div class="column">
+          <h3>Soft Skills</h3>
+          <ul>
+            <li>Teamwork</li>
+            <li>Time Management</li>
+            <li>Effective Communication</li>
+            <li>Critical Thinking</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="content-section">
+      <h2>Academic Projects</h2>
+      <div class="two-column">
+        <div class="column">
+          <h4 id="sentcenter">Sentiment Analysis on Amazon Product Reviews</h4>
+          <p id="sentiment">
+            Built a sentiment analysis pipeline beginning with web scraping product reviews directly from Amazon. 
+            <br><br>Developed a web-based application where users can input a product URL to process data, perform sentiment analysis, and display results.
+          </p>
+        </div>
+        <div class="column">
+          <h4 style="margin-bottom: 38px; margin-top: 25px;">UI/UX Design for SoulGYM</h4>
+          <div>
+            <p style="margin-top: -1px; margin-bottom: 20px;">
+    - Designed a comprehensive mobile app for SoulGYM, focusing on functionality, aesthetics, and user engagement.
+            </p>
+            <p style="margin-top: 0;">- Tools: Figma</p>
+          </div>
+        </div>
+        <div class="column" id="swift">
+          <h4 style="padding-top: 25px;">Strategic Plan for Swift Technology
+          </h4>
+          <p style="padding-right: 60px; padding-top: 20px;" >
+            - Developed a strategic plan for Swift Technology to enhance operational efficiency and market positioning.
+          </p><br>
+          <p style="padding-bottom: 30px; padding-right: 100px;">- Tools: Used a Strategic Process called Strategy-Formulation Framework
+            </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="lang" class="content-section">
+      <h2>Languages</h2>
+      <div class="two-column">
+        <div class="column">
+          <strong>English(Fluent)</strong><br><br><br>
+          <strong>Arabic(Fluent)</strong> 
+        </div>
+      </div>
+    </section>
+
+
+    <section id="contact" class="content-section">
+      <h2>Contacts</h2>
+      <div class="two-column">
+        <div class="column">
+          <p><strong>Location:</strong> Palestine</p>
+          <p><strong>Email:</strong> <a href="mailto:amrqam12@gmail.com">amrqam12@gmail.com</a></p>
+        </div>
+        <div class="column">
+          <p><strong>GitHub:</strong> <a href="https://github.com/AmrQamhieh" target="_blank">github.com/AmrQamhieh</a></p>
+          <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/amr-qamhieh" target="_blank">linkedin.com/in/amr-qamhieh</a></p>
+        </div>
+      </div>
+    </section>
+
+    
+  </main>
+  <script>
+    function downloadPortfolio() {
+      const link = document.createElement('a');
+      link.href = "https://drive.google.com/file/d/1LfqexmAe5SYhphW_opy1_uPYSQjGnjbI/view?usp=sharing";
+      link.target = "_blank"; // Opens the link in a new tab
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    }
+  </script>
+</body>
+</html>

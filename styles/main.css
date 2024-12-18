@@ -1,0 +1,7 @@
+/* Main CSS file that imports all modules */
+@import 'base.css';
+@import 'header.css';
+@import 'profile.css';
+@import 'sections.css';
+@import 'contact.css';
+@import 'responsive.css';
